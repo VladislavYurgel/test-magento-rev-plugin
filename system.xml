@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <tab id="Worldstes" translate="label" sortOrder="100">
+            <label>My Extension</label>
+        </tab>
+        <section id="TestRevPlugin" translate="label" sortOrder="100" showInDefault="1" showInWebsite="1" showInStore="1">
+            <class>Worldstes\TestRevPlugin\Model\Config</class>
+            <label>General</label>
+            <tab>Worldstes</tab>
+            <resource>Worldstes_TestRevPlugin::config</resource>
+            <group id="my_options" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                <label>My Options</label>
+                <field id="my_field" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>My Field</label>
+                    <validate>required-entry</validate>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>
