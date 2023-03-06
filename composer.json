@@ -3,6 +3,7 @@
   "description": "Test plugin to inject some tags using the plugins implementation in Magento 2",
   "type": "magento2-module",
   "license": "OSL-3.0",
+  "version": "0.0.1",
   "authors": [
     {
       "name": "Uladzislau Yurhel",
