@@ -1,0 +1,23 @@
+{
+  "name": "worldstes/test-magento-rev-plugin",
+  "description": "Test plugin to inject some tags using the plugins implementation in Magento 2",
+  "type": "magento2-module",
+  "license": "OSL-3.0",
+  "authors": [
+    {
+      "name": "Uladzislau Yurhel",
+      "email": "worldstes@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=8.1"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Worldstes\\TestRevPlugin\\": ""
+    }
+  }
+}
