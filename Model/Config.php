@@ -15,6 +15,6 @@ class Config
 
     public function getMyField($storeId = null)
     {
-        return $this->scopeConfig->getValue('my_options/my_field', ScopeInterface::SCOPE_STORE, $storeId);
+        return $this->scopeConfig->getValue('settings/uid', ScopeInterface::SCOPE_STORE, $storeId);
     }
 }
